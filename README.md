@@ -1,5 +1,6 @@
 public link 
 https://research-summarizer-citation-database.ai.studio/
+
 screen shots
 <img width="1080" height="2400" alt="1000420307" src="https://github.com/user-attachments/assets/278b2af9-bfa9-483a-97a1-10c716b407f4" />
 <img width="1080" height="2400" alt="1000420308" src="https://github.com/user-attachments/assets/08b2537b-9282-4b27-a9de-69a1efaa1dd4" />
