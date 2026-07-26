@@ -65,3 +65,14 @@ To run this project locally:
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git)
    cd YOUR_REPOSITORY_NAME
+ How to Run the Project
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/khanzadawum11-beep/Scholar-plus-Ai.git](https://github.com/khanzadawum11-beep/Scholar-plus-Ai.git)
+   cd Scholar-plus-Ai
+   npm install
+   Set up Environment Variables:
+ Code snippet NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here 
+ Run the development server:
+npm run dev 
