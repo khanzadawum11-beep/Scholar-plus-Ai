@@ -1,3 +1,10 @@
+<img width="1080" height="2400" alt="1000420307" src="https://github.com/user-attachments/assets/278b2af9-bfa9-483a-97a1-10c716b407f4" />
+<img width="1080" height="2400" alt="1000420308" src="https://github.com/user-attachments/assets/08b2537b-9282-4b27-a9de-69a1efaa1dd4" />
+<img width="1080" height="2400" alt="1000420309" src="https://github.com/user-attachments/assets/6723d91a-12e1-4e0f-aa27-b9869b9427aa" />
+<img width="1080" height="2400" alt="1000420307" src="https://github.com/user-attachments/assets/35c55037-5098-4514-a863-2d6ad36af5fd" />
+<img width="1080" height="2400" alt="1000420306" src="https://github.com/user-attachments/assets/0af938c1-4ce8-4c7c-81ce-d2a2e26c7c19" />
+<img width="1080" height="2400" alt="1000420305" src="https://github.com/user-attachments/assets/6c566350-0872-4ad9-bc89-4abe45c07520" />
+<img width="1080" height="2400" alt="1000420304" src="https://github.com/user-attachments/assets/90349d46-c574-4493-bb8c-6cd826ed708c" />
 Research Summarizer & Citation Database
 name: scholar plus Ai
 > An AI-powered research assistant that condenses academic papers into structured summaries and automatically organizes formatted citations into a searchable database.
