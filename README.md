@@ -76,3 +76,5 @@ To run this project locally:
  Code snippet NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here 
  Run the development server:
 npm run dev 
+
+The public live link of app ([https://research-summarizer-citation-database.ai.studio](https://research-summarizer-citation-database.ai.studio)
