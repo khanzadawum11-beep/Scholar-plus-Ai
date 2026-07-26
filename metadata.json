@@ -1,0 +1,6 @@
+{
+  "name": "Research Summarizer & Citation Database",
+  "description": "AI-powered research article summarizer with an active live analysis runner, searchable citation database, and interactive study notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

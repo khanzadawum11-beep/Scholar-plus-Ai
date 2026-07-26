@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Article": {
+      "title": "Article",
+      "description": "Peer-reviewed journal paper or research article citation",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 500 },
+        "authors": { "type": "array" },
+        "journal": { "type": "string", "maxLength": 200 },
+        "year": { "type": "number" },
+        "doi": { "type": "string", "maxLength": 100 },
+        "domain": { "type": "string", "maxLength": 100 },
+        "citationCount": { "type": "number" },
+        "tags": { "type": "array" },
+        "abstract": { "type": "string", "maxLength": 5000 },
+        "bibtex": { "type": "string", "maxLength": 2000 },
+        "apaCitation": { "type": "string", "maxLength": 1000 },
+        "mlaCitation": { "type": "string", "maxLength": 1000 },
+        "ieeeCitation": { "type": "string", "maxLength": 1000 },
+        "dateAdded": { "type": "string", "maxLength": 50 },
+        "isFavorite": { "type": "boolean" }
+      },
+      "required": ["title", "authors", "journal", "year"]
+    },
+    "Note": {
+      "title": "Note",
+      "description": "User research review note with citations and markdown",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 300 },
+        "content": { "type": "string", "maxLength": 20000 },
+        "tags": { "type": "array" },
+        "createdAt": { "type": "string", "maxLength": 50 },
+        "updatedAt": { "type": "string", "maxLength": 50 },
+        "isPinned": { "type": "boolean" },
+        "color": { "type": "string", "maxLength": 50 },
+        "articleId": { "type": "string", "maxLength": 100 },
+        "articleTitle": { "type": "string", "maxLength": 300 }
+      },
+      "required": ["title", "content"]
+    }
+  },
+  "firestore": {
+    "/articles/{articleId}": {
+      "schema": "Article",
+      "description": "Collection of research articles"
+    },
+    "/notes/{noteId}": {
+      "schema": "Note",
+      "description": "Collection of research notes"
+    }
+  }
+}
