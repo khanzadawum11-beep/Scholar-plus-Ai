@@ -82,3 +82,18 @@ To run this project locally:
 npm run dev 
 
 The public live link of app ([https://research-summarizer-citation-database.ai.studio](https://research-summarizer-citation-database.ai.studio)
+
+## 📁 Project Structure
+
+```text
+Scholar-plus-Ai/
+├── public/                # Static assets and icons
+├── src/
+│   ├── components/        # UI components (Summarizer, Citation Generator)
+│   ├── services/          # Gemini API & Firebase configuration
+│   ├── utils/             # Citation formatting helpers (APA, MLA, Chicago)
+│   └── App.js             # Main application entry point
+├── .env.local             # Environment variables (API Keys)
+├── package.json           # Dependencies and scripts
+└── README.md              # Project documentation and report
+
